@@ -10,15 +10,19 @@ local function Events()
 			end
 		end
 		TCount = TCount+1
-	end	
+	end
 end
 
 -- Broker stuff, shows time on broker.
-local obj = LibStub("LibDataBroker-1.1"):NewDataObject("Legion Assaults", {type = "data source", value = "0", text = "Assault in progress", icon = "Interface\\Icons\\70_inscription_vantus_rune_tomb"})
+local obj = LibStub("LibDataBroker-1.1"):NewDataObject("Legion Assaults", {type = "data source", value = "0", text = "0", icon = "Interface\\Icons\\70_inscription_vantus_rune_tomb"})
 local function NextEvent()
 	C_Timer.After(1, NextEvent)
 	TimeToEvent = Events()
-	TimeCalc = date('!%H:%M:%S',difftime(TimeToEvent, time()))
+	if not TimeToEvent then
+		TimeCalc = "Assault in progress"
+	else
+		TimeCalc = date('!%H:%M:%S',difftime(TimeToEvent, time()))
+	end
 	obj.text = TimeCalc
 	obj.value = TimeCalc
 end
