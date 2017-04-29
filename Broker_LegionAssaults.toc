@@ -1,0 +1,16 @@
+## Interface: 70200
+## Title: Broker: |cffff981fLegion Assaults|r
+## Notes: Legion assault Data Broker plugin
+## Author: Mindii @ Stormreaver
+## Version: 0.8b
+
+## X-Category: Interface Enhancements
+## X-Website: http://www.mindinet.org
+## X-Email: contact@mindinet.org
+
+## Libs ##
+lib\LibStub.lua
+lib\CallbackHandler-1.0.lua
+lib\LibDataBroker-1.1.lua
+
+Broker_LegionAssaults.lua
