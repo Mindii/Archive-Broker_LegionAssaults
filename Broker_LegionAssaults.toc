@@ -1,4 +1,4 @@
-## Interface: 70200
+## Interface: 70300
 ## Title: Broker: |cffff981fLegion Assaults|r
 ## Notes: Legion assault Data Broker plugin
 ## Author: Mindii @ Stormreaver
