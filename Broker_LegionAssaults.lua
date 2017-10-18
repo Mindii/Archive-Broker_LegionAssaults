@@ -1,8 +1,7 @@
 -- Events() v3 - Finds right date/time for next event
 local function Events()
 	TCount=0
-	TStart = time({hour=15, min=30, sec=00, day=24, month=7, year=2017, isdst})
-	--TStart = time({hour=20, min=30, sec=00, day=27, month=4, year=2017, isdst})
+	TStart = time({hour=04, min=00, sec=00, day=18, month=10, year=2017, isdst})
 	while(TCount < 60) do
 		TStart = TStart+66600
 		if(TStart - time() > 0) then
