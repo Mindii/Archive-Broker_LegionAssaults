@@ -2,10 +2,10 @@
 ## Title: Broker: |cffff981fLegion Assaults|r
 ## Notes: Legion assault Data Broker plugin
 ## Author: Mindii @ Stormreaver
-## Version: 0.81b
+## Version: 0.9
 
 ## X-Category: Interface Enhancements
-## X-Website: http://www.mindinet.org
+## X-Website: https://www.mindinet.org
 ## X-Email: contact@mindinet.org
 
 ## Libs ##
